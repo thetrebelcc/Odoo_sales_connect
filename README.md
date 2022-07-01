@@ -21,6 +21,14 @@ If you need help with this open an issue or feel free to email me fabiananguiano
 Once the JSON app is set up, you can run it over NGINX. 
 
 
+
+### User
+
+Once the route http://localhost:5000/listener gets hit with a POST request the JSON will be taken and broken down into Odoo input data. A sale.order record will be created in Odoo. 
+
+You can customize the records to your needs/wants. 
+
+
 ## Todos
 * Move to Django 4
 * Make a generic unknown customer handler
